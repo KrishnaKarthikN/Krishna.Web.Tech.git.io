@@ -1,0 +1,23 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+  text-decoration: chocolate;
+  text-transform: uppercase;
+  margin: 10px, 100px, 10px, 100px;
+  border: 2px dotted red;
+  padding-left: 20px;
+}
+
+.header,
+h1 {
+  color: blue;
+  text-transform: capitalize;
+} /*comments*/
+
+#head {
+  text-transform: uppercase;
+}

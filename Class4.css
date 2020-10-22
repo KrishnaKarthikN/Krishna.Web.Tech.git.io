@@ -1,0 +1,94 @@
+h3 {
+  color: whitesmoke;
+  font-size: 30px;
+  font-family: cursive;
+}
+div {
+  color: aqua;
+  font-size: 30px;
+}
+p {
+  color: whitesmoke;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+.square {
+  height: 30px;
+  width: 30px;
+  background-color: whitesmoke;
+}
+
+/*div p {
+  color: yellow;
+  font-size: 30px;
+}*/
+body {
+  background-color: yellowgreen;
+}
+/*Descendent Selector
+div p {
+  color: yellow;
+}
+body {
+  background-color: yellowgreen;
+}
+*/
+
+/*Child Selector 
+  div>p {
+  color:blue;
+}
+body {
+  background-color: yellowgreen;*/
+div + p {
+  color: orange;
+  font-size: 30px;
+}
+/*Adjacent Sibling Selector
+div + p {
+  color: orange;
+}*/
+
+/*General sibling selector
+div~p{
+  color: blueviolet;
+  font-size: 30px;
+}
+*/
+div ~ p {
+  color: blueviolet;
+  font-size: 30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+}
+li a:hover {
+  background-color: #111;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

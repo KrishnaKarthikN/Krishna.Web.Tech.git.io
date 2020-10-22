@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <div>
+        <form action="">
+            <label for="uname">Enter email</label>
+            <input type="email" name="name" placeholder="Enter the email" id="uname" autocomplete="off">
+            <br>
+            <label>Password</label>
+            <input type="password" name="password" placeholder="password">
+            <br><!--
+            <label>Select Gender</label>
+            <input type="radio" name="Male">Male
+            <input type="radio" name="Female">Female
+            <input type="radio" name="Others">Others
+            -->
+            <!--make selection of only one-->
+            <br>
+            <input type="radio" id="Male" name="Gender" value="Male">Male
+            <input type="radio" id="Female" name="Gender" value="Male">Female
+            <input type="radio" id="Others" name="Gender" value="Others">Others
+            <br>
+            <!-- Selecting using checkboxes-->
+            <label for="">Select courses</label>
+            <input type="checkbox" name="" id="" value="">java
+            <input type="checkbox" name="" id="" value="">html
+            <input type="checkbox" name=""
+            id="" value="">css
+
+            <br>
+
+            <label for="">Enter Age</label>
+            <input type="number" name="age">
+
+            <br>
+            <label for="">Enter DOB</label>
+            <input type="date" name="DOB">
+
+            <!--How to select city in list-->
+            <br>
+            <label for="cities">Choose a city:</label>
+           
+            <select name="cities" id="cities">
+                <option value="">--Select City--</option>
+                <option value="Bengaluru">Bengaluru</option>
+                <option value="Hydrabad">Hydrabad</option>
+                <option value="Chennai">Chennai</option>
+                
+            </select>
+            <br>
+            <label for="">Enter Address</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+
+            <br>
+            <br>
+            <button type="submit">Submit</button><!--can be seen on url-->
+            <!--<button type="button">Submit</button>-->
+            <button type="reset">Cancel</button>
+            <br>
+            <div>Age starting from 0 to max 100</div>
+            <label for="">Enter Age</label>
+            <input type="number" name="age" min="0" max="100">
+            <div>Restrict input to Max length of 6</div>
+            <label for="name">Name</label>
+            <input type="" name="Name" placeholder="Name" maxlength="6" autocomplete="off">
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+    </div>
+</body>
+</html>
