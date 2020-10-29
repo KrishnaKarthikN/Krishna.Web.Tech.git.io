@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Functions</h2>
+    
+    <p>hello</p>
+    
+    <p id="demo"></p>
+
+
+    <script>
+
+        function hello(){
+            console.log(
+                "executing a function"
+            )
+        }
+        hello()
+
+        function add(a,b){
+            console.log(a+b)
+        }
+        add(1,2)
+
+        function addition(a,b){
+            return a+b
+        }
+        let res = addition(2,2)
+        console.log(res)
+
+        let result = function sub(a,b){
+            console.log(a-b)
+        }
+        result(4,2)
+        //Anonymous 
+        let div = function (a,b){
+            console.log(b/a)
+        
+        }
+        div(5,10)
+        //html to javaScript
+        function submitEvent(){
+            console.log("calling submit")
+            console.log(document.getElementById("num1"))
+            let num1 = document.getElementById("num1").value
+            console.log(num1)
+        }
+        function addition(){
+            let x = document.getElementById("n1").value
+            let y = document.getElementById("n2").value
+            let z = Number(x)+Number(y)
+            console.log(z)
+        }
+
+    </script>
+
+<form action="">
+    <div>
+        <label for="">Enter number</label>
+        <input type="text" name="num1" id="num1"><br>
+        <button type="button" onclick="submitEvent()" >Submit</button>
+    </div>
+</form>
+<form action="">
+    <div>
+        <label for="">Enter a</label>
+        <input type="number" name="n1" id="n1"><br>
+        <label for="">Enter b</label>
+        <input type="number" name="n2" id="n2"><br>
+        <button type="button" onclick="addition()">Add</button>
+
+    </div>
+</form>
+
+
+
+
+</body>
+</html>
